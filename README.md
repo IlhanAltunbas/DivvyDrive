@@ -61,7 +61,7 @@ The application integrates with the following API endpoints:
 
 ## 🛠 Technical Details
 - **Navigation**: Between Login & Home screens, with logout option.
-- - **Secure Ticket Storage**: Tickets are stored locally on the device using SharedPreferences with AES-256 encryption.
+- **Secure Ticket Storage**: Tickets are stored locally on the device using SharedPreferences with AES-256 encryption.
 - **UI State Management**: ViewModels manage UI state and handle user interactions using StateFlow and LiveData.
 - **LazyLayout**: Efficient rendering of file/folder lists.
 - **Snackbar Messages**: For API response feedback.
