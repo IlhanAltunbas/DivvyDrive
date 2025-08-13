@@ -61,11 +61,28 @@ The application integrates with the following API endpoints:
 
 ## 🛠 Technical Details
 - **Navigation**: Between Login & Home screens, with logout option.
+- - **Secure Ticket Storage**: Tickets are stored locally on the device using SharedPreferences with AES-256 encryption.
 - **UI State Management**: ViewModels manage UI state and handle user interactions using StateFlow and LiveData.
 - **LazyLayout**: Efficient rendering of file/folder lists.
 - **Snackbar Messages**: For API response feedback.
 - **Dialogs**: For folder/file creation.
 - **Hilt**: Used for dependency injection.
+
+---
+
+## 📸 Screenshots
+
+| Login Screen | Home Page (Grid) | Home Page (List) |
+|--------------|-----------------|------------------|
+| ![Login](screenshots/login_screen.png) | ![Grid](screenshots/main_page_grid.png) | ![List](screenshots/main_page_list.png) |
+
+| Create File | Delete File | Chunked Upload |
+|-------------|-------------|----------------|
+| ![Create](screenshots/create_file.png) | ![Delete](screenshots/delete_file.png) | ![Chunked](screenshots/chunked_upload.png) |
+
+| Upload Result | FAB Button | File Icons |
+|---------------|------------|------------|
+| ![Result](screenshots/chunked_upload_result.png) | ![FAB](screenshots/fab_button.png) | ![Icons](screenshots/file_icons.png) |
 
 ---
 
